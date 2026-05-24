@@ -61,7 +61,7 @@ public class UrlService {
 
 		u.setUrl(url.getUrl()); 
 		u.setUpdatedAt(LocalDateTime.now());
-		u.setExpirationDate(LocalDateTime.now().plusDays(30));
+		u.setExpirationDate(LocalDateTime.now().plusDays(10));
 		Url saved = _repo.save(u);
 
 		return _mapper.toResponse(saved);
