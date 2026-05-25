@@ -1,5 +1,7 @@
 # API REST para el acortamiento y redirección de URLs
-Este proyecto es una solución backend de nivel profesional construida con **Spring Boot 3**, 
+Este proyecto es una solución a una propuesta de proyecto en 
+https://roadmap.sh/projects/url-shortening-service
+Cuenta con un backend de nivel profesional construida con **Spring Boot 3**, 
 diseñada para optimizar y gestionar la redirección de enlaces web de manera eficiente. 
 Aplica principios de arquitectura limpia, aislamiento de datos mediante DTOs, manejo atómico 
 de concurrencia en bases de datos y despliegues completamente dockerizados.
